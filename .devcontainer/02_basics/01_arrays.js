@@ -12,6 +12,22 @@ console.log(newArray[1])
 
 //newArray.push()
 //newArray.pop()//remove last value from array
-newArray.unshift(9)
-newArray.shift()
-console.log(newArray)
+//newArray.unshift(9)
+//newArray.shift()
+// console.log(newArray.includes(9))
+// console.log(newArray.indexOf(4))
+// console.log(newArray)
+const newArry = newArray.join()
+
+// console.log(newArray)
+// console.log(newArry)
+// console.log("A",newArray)
+
+const myn1 = newArray.slice(1,3)
+
+console.log(myn1);
+console.log("B",newArray)
+
+const myn2 = newArray.splice(1,3)
+console.log("c",newArray)
+console.log(myn2)
