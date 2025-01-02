@@ -10,5 +10,8 @@ console.log(newArray[1])
 
 //Array Methods 
 
-newArray.push()
+//newArray.push()
+//newArray.pop()//remove last value from array
+newArray.unshift(9)
+newArray.shift()
 console.log(newArray)
